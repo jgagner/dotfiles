@@ -1,3 +1,5 @@
+set -xg fish_color_user magenta
+set -xg fish_color_host yellow
 function fish_prompt --description 'Write out the prompt'
 	set -l last_status $status
 
